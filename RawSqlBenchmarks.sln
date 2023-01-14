@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59FA95A4-CA3A-4986-82FB-849C23C08DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawSqlBenchmarks", "src\RawSqlBenchmarks\RawSqlBenchmarks.csproj", "{00BFDFF8-AF85-4529-9EDC-CD2579649021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{249910B4-8A34-4356-B139-8CE75AA4B9F4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00BFDFF8-AF85-4529-9EDC-CD2579649021} = {59FA95A4-CA3A-4986-82FB-849C23C08DFC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00BFDFF8-AF85-4529-9EDC-CD2579649021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BFDFF8-AF85-4529-9EDC-CD2579649021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BFDFF8-AF85-4529-9EDC-CD2579649021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BFDFF8-AF85-4529-9EDC-CD2579649021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
